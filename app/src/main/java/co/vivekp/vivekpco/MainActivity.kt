@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         webView.settings.javaScriptEnabled = true
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
-        webView.loadUrl("https://vivekp.co")
-
+        webView.loadUrl("https://yoganatech.in")
     }
 }
